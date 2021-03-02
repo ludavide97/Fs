@@ -1,0 +1,11 @@
+open System
+
+let hello() =
+     printf "Enter your name : "
+
+     let name = Console.readLine()
+
+     printf "Hello %s" name 
+
+hello()
+Console.ReaKey() |> ignore
